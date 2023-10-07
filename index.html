@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Index</title>
+        <!-- Logo -->
+        <link rel="shortcut icon" href="./img/logo.png" />
+        <!-- Google Fonts - Noto Sans -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap" rel="stylesheet" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/styles-initial.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Banda favorita de Ludwing Moran</h1>
+            <p>PENNYWISE</p>
+        </header>
+        <div class="container-main">
+            <div class="banner" style="background-image: url('./img/banner.jpg')">
+                <h2>¡Mis 5 Canciones!</h2>
+                <ul id="playlist">
+                    <li>
+                        <div>
+                            <h3 class="track-title">City is burning</h3>
+                            <button class="play-button" onclick="playSong('City is burning', 'http://audio.turntablelab.com/realfiles/p/pennywise-cityisburning.mp3')">Play</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3 class="track-title">It's up to me</h3>
+                            <button class="play-button" onclick="playSong('It\'s up to me', 'http://audio.turntablelab.com/realfiles/p/pennywise-itsuptome.mp3')">Play</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3 class="track-title">Unknownroad</h3>
+                            <button class="play-button" onclick="playSong('Unknownroad', 'http://audio.turntablelab.com/realfiles/p/pennywise-unknownroad.mp3')">Play</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3 class="track-title">Peaceful day</h3>
+                            <button class="play-button" onclick="playSong('Peacefulday', 'http://audio.turntablelab.com/realfiles/p/pennywise-peacefulday.mp3')">Play</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3 class="track-title">Dying to know</h3>
+                            <button class="play-button" onclick="playSong('Dying to know', 'http://audio.turntablelab.com/realfiles/p/pennywise-dyingtoknow.mp3')">Play</button>
+                        </div>
+                    </li>
+                </ul>
+                <audio id="audioPlayer" controls>
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="https://www.youtube.com/playlist?list=PLaeRUlHX3Y3hHtB4zuKRy2kTMGF7zksLT" class="button">Ir al canal</a>
+            </div>
+            <div class="container-cards">
+                <div class="card" style="background-image: url('./img/videolist/1.jpg')">
+                    <div class="texts">
+                        <!-- <h3>Punk In The Park CA</h3> -->
+                        <!-- <p>Silverado, CA</p>  -->
+                        <!--<h5>4/11/2023</h5>  -->
+                    </div>
+                </div>
+                <div class="card" style="background-image: url('./img/videolist/2.jpg')">
+                    <div class="texts">
+                        <!-- <h3>Punk In The Park CA</h3> -->
+                        <!-- <p>Silverado, CA</p> -->
+                        <!-- <h5>4/11/2023</h5> -->
+                    </div>
+                </div>
+                <div class="card" style="background-image: url('./img/videolist/3.jpg')">
+                    <div class="texts">
+                        <!-- <h3>Java</h3> -->
+                        <!-- <p>Curso del lenguaje de programación Java, para principiantes.</p> -->
+                        <!--<h5>07/10/2022</h5> -->
+                    </div>
+                </div>
+                <div class="card" style="background-image: url('./img/videolist/4.jpg')">
+                    <div class="texts">
+                        <!-- <h3>JavaScript</h3> -->
+                        <!-- <p>Curso de JavaScript, incluyendo las últimas novedades de ECMAScript.</p> -->
+                        <!-- <h5>09/10/2022</h5> -->
+                    </div>
+                </div>
+                <div class="card" style="background-image: url('./img/videolist/5.jpg')">
+                    <div class="texts">
+                        <!-- <h3>Bootstrap</h3> -->
+                        <!-- <p>Curso del popular framework CSS, creado por Twitter.</p> -->
+                        <!-- <h5>11/10/2022</h5> -->
+                    </div>
+                </div>
+                <div class="card" style="background-image: url('./img/videolist/6.jpg')">
+                    <div class="texts">
+                        <!-- <h3>C#</h3> -->
+                        <!-- <p>Curso del lenguaje de programación impulsado por Microsoft: C#.</p> -->
+                        <!-- <h5>16/10/2022</h5> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="container-info">
+            <div class="presentation">
+                Pennywise es una banda estadounidense de punk rock procedente de Hermosa Beach, California y fundada en 1988 por Jim Lindberg, Fletcher Dragge, Byron McMackin y Jason Thirsk. El nombre del grupo fue tomado del monstruo de la novela de Stephen King, It.
+                Desde su álbum homónimo de 1991, Pennywise ha lanzado un álbum cada dos años en Epitaph Records, sello discográfico propiedad del guitarrista de Bad Religion Brett Gurewitz. Hasta la fecha, la banda ha lanzado diez álbumes de estudio, un disco en directo, dos EP y un DVD. Su noveno álbum de estudio, Reason to Believe de 2008, fue lanzado gratuitamente mediante un acuerdo con MySpace y Textango, un distribuidor musical de móviles. El álbum estuvo disponible en las tiendas a través de MySpace Records en los Estados Unidos, y mediante Epitaph en Europa.
+            </div>
+    </div>
+        <hr />
+        <div class="container-images">
+            <div class="card-image">
+                <img src="img/thumbnails/1.JPG" alt="Thumbnail 1" />
+            </div>
+            <div class="card-image">
+                <img src="img/thumbnails/2.JPG" alt="Thumbnail 2" />
+            </div>
+            <div class="card-image">
+                <img src="img/thumbnails/3.JPG" alt="Thumbnail 3" />
+            </div>
+            <div class="card-image">
+                <img src="img/thumbnails/4.JPG" alt="Thumbnail 4" />
+            </div>
+        </div>
+        <script>
+            const audioPlayer = document.getElementById('audioPlayer');
+    
+            function playSong(title, songUrl) {
+                audioPlayer.src = songUrl;
+                audioPlayer.play();
+                document.getElementById('currentTrack').textContent = `Now Playing: ${title}`;
+            }
+        </script>
+        <p id="currentTrack"></p>
+    </body>
+</html>
